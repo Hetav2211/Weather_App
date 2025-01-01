@@ -1,0 +1,46 @@
+.app {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: background 0.5s ease;
+}
+
+.clear {
+  background-image: url('/assets/clear_sky.png');
+  background-color: #87CEEB; 
+}
+
+.cloudy {
+  background-image: url('/assets/cloudy_sky.png');
+  background-color: #A9A9A9; 
+}
+
+.rainy {
+  background-image: url('/assets/rainy_sky.png');
+  background-color: #4682B4;
+}
+
+.snowy {
+  background-image: url('/assets/snowfall_sky.png');
+  background-color: #F0F8FF;
+}
+
+.thunderstorm {
+  background-image: url('/assets/thunderstorm_sky.png');
+  background-color: #483D8B; 
+}
+
+.misty {
+  background-image: url('/assets/mist_sky.png');
+  background-color: #708090; 
+}
+
+.default {
+  background-image: url('/assets/default_sky.png');
+  background-color: white
+}
